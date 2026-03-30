@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h2{
+	color: #DA8EBA;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.gallery-grid {
+            display: grid;
+			grid-template-columns: auto auto auto;
+            grid-row-gap: 50px ;
+            justify-items: center;
+            align-items:start;
+            justify-content: space-between;
+        }
