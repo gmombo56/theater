@@ -13,3 +13,62 @@ h2{
             align-items:start;
             justify-content: space-between;
         }
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr .5fr;
+  
+}
+
+.grid-item {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.wrapper {
+	background: #ffffff;
+    width: 972px; 
+	margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px 40px;
+}
+
+header{
+	background-color: #FA9BCF;
+	padding: 15px;
+	margin: none;
+	justify-content: center;
+}
+
+nav.sitenav a{
+	justify-content: space-between;
+	color: #858ACD;
+	bacground-color: #B4A2FF;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+nav.sitenav a:hover{
+	color: #FA9BCF;
+	background-color: #858ACD;
+}
+gallery-grid {
+            display: grid;
+			grid-template-columns: auto auto auto;
+            grid-row-gap: 20px ;
+            justify-items: center;
+            align-items:start;
+            justify-content: space-between;
+        }
+          
+.gallery-item {
+            width: 300px; /*should match the width of your images + width of border (if any) */
+            text-align: center;
+        } 
+
+.gallery-item p {
+            margin: .25em 0;
+            line-height: 135%;
+        }
